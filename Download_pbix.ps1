@@ -14,6 +14,7 @@ $caminho = "CAMINHO ONDE VOCÊ QUER FAZER O DOWNLOAD"
 #fazendo o iteraveil para saber em que posição de download estamos
 $a = 0
 $qtdrelatorios = $relatorios_corr.Count
+
 #Baixando os PBIX Workspace Corretoras
 foreach ($relatorio in $relatorios_corr){
     $a++
@@ -30,6 +31,7 @@ $caminho = "CAMINHO ONDE VOCÊ QUER FAZER O DOWNLOAD"
 #fazendo o iteraveil para saber em que posição de dosnload estamos
 $b = 0
 $qtdrelatorios = $relatorios_seg.Count
+
 # Baixando os PBIX Workspace Seguradoras
 foreach ($relatorio in $relatorios_seg){
     $b++
@@ -46,6 +48,7 @@ $caminho = "CAMINHO ONDE VOCÊ QUER FAZER O DOWNLOAD"
 #fazendo o iteraveil para saber em que posição de download estamos
 $c = 0
 $qtdrelatorios = $RMS_pbi.Count
+
 # Baixando os PBIX Workspace VISÃO GERENCIAL
 foreach ($relatorio in $RMS_pbi){
     $c++
@@ -62,6 +65,7 @@ $caminho = "CAMINHO ONDE VOCÊ QUER FAZER O DOWNLOAD"
 #fazendo o iteraveil para saber em que posição de download estamos
 $d = 0
 $qtdrelatorios = $macro_seg.Count
+
 # Baixando os PBIX Workspace VISÃO GERENCIAL 2
 foreach ($relatorio in $macro_seg){
     $d++
@@ -78,6 +82,7 @@ $caminho = "CAMINHO ONDE VOCÊ QUER FAZER O DOWNLOAD"
 #fazendo o iteraveil para saber em que posição de download estamos
 $e = 0
 $qtdrelatorios = $macros_corr.Count
+
 # Baixando os PBIX Workspace VISÃO GERENCIAL 3
 foreach ($relatorio in $macro_corr){
     $e++
