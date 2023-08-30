@@ -28,7 +28,7 @@ foreach ($relatorio in $relatorios_corr){
 $seguradora = Get-PowerBIWorkspace -Name 'WORKSPACE ONDE O PBIX ESTA ALOCADO' 
 $relatorios_seg = Get-PowerBIReport -Workspace $seguradora
 $caminho = "CAMINHO ONDE VOCÊ QUER FAZER O DOWNLOAD"
-#fazendo o iteraveil para saber em que posição de dosnload estamos
+#fazendo o iteraveil para saber em que posição de download estamos
 $b = 0
 $qtdrelatorios = $relatorios_seg.Count
 
