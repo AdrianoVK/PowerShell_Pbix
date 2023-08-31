@@ -2,6 +2,7 @@
 # necidades de chamar esse modulo depois. Basta comentar ou excluir depois da primeira chamada.
 ####  Install-Module -Name MicrosoftPowerBIMgmt
 
+
 #Lembre-se que o powerShell só conseguimos executar utilizando ele como Admin, sem isso o script não funciona
 
 Connect-PowerBIServiceAccount
