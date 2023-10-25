@@ -5,7 +5,7 @@
 
 #Lembre-se que o powerShell só conseguimos executar utilizando ele como Admin, sem isso o script não funciona
 
-Connect-PowerBIServiceAccount
+Connect-PowerBIServiceAccount 
 
 ### ESTES PBIX FOI DESENVOLVIDO PARA SEGURADORAS E CORRETORAS. NESTE CASO AS VARIAVEIS SEGUIRÁ COMO ORIGINAL DESSA APLICACAO ###
 #criando as variaveis para pegar os pbix de Corretoras
