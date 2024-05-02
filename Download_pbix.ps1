@@ -2,12 +2,12 @@
 # necidades de chamar esse modulo depois. Basta comentar ou excluir depois da primeira chamada.
 ####  Install-Module -Name MicrosoftPowerBIMgmt 
 
-
+ 
 #Lembre-se que o powerShell só conseguimos executar utilizando ele como Admin, sem isso o script não funciona
 
 Connect-PowerBIServiceAccount  
 
-### ESTES PBIX FOI DESENVOLVIDO PARA SEGURADORAS E CORRETORAS. NESTE CASO AS VARIAVEIS SEGUIRÁ COMO ORIGINAL DESSA APLICACAO ###
+### ESTES PBIX FOI DESENVOLVIDO PARA SEGURADORAS E CORRETORAS. NESTE CASO AS VARIAVEIS SEGUIRÁ COMO ORIGINAL DESSA APLICACAO ### 
 #criando as variaveis para pegar os pbix de Corretoras
 $corretora = Get-PowerBIWorkspace -Name 'WORKSPACE ONDE O PBIX ESTA ALOCADO' 
 $relatorios_corr = Get-PowerBIReport -Workspace $corretoras
