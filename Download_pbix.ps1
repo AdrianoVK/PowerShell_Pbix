@@ -9,7 +9,7 @@ Connect-PowerBIServiceAccount
 
 ### ESTES PBIX FOI DESENVOLVIDO PARA SEGURADORAS E CORRETORAS. NESTE CASO AS VARIAVEIS SEGUIRÁ COMO ORIGINAL DESSA APLICACAO ### 
 #criando as variaveis para pegar os pbix de Corretoras
-$corretora = Get-PowerBIWorkspace -Name 'WORKSPACE ONDE O PBIX ESTA ALOCADO'  
+$corretora = Get-PowerBIWorkspace -Name 'WORKSPACE ONDE O PBIX ESTA ALOCADO'   
 $relatorios_corr = Get-PowerBIReport -Workspace $corretoras
 $caminho = "CAMINHO ONDE VOCÊ QUER FAZER O DOWNLOAD"
 #fazendo o iteraveil para saber em que posição de download estamos
