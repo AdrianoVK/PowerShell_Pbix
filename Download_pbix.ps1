@@ -1,6 +1,6 @@
 # O módulo MicrosoftPowerBIMgmt abaixo deve ser instalado apenas na primeira vez que executa esse script, depois não há 
 # necidades de chamar esse modulo depois. Basta comentar ou excluir depois da primeira chamada.
-####  Install-Module -Name MicrosoftPowerBIMgmt 
+####  Install-Module -Name MicrosoftPowerBIMgmt  
 
  
 #Lembre-se que o powerShell só conseguimos executar utilizando ele como Admin, sem isso o script não funciona
